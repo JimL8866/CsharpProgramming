@@ -70,12 +70,69 @@ namespace project001
             //char character = (char)num5;
             //Console.WriteLine($"character is {character}");
 
-            int gradeMath = Convert.ToInt32(Console.ReadLine());
-            int gradeEnglish = Convert.ToInt32(Console.ReadLine());
-            if (gradeMath >= 90 && gradeEnglish >= 90)
-                Console.WriteLine("Reward with Price");
+            //int gradeMath = Convert.ToInt32(Console.ReadLine());
+            //int gradeEnglish = Convert.ToInt32(Console.ReadLine());
+            //if (gradeMath >= 90 && gradeEnglish >= 90)
+            //    Console.WriteLine("Reward with Price");
 
+            //Console.WriteLine("Please put in a number");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //if (num % 2 == 0)
+            //    Console.WriteLine("It is an even number");
+            //else
+            //    Console.WriteLine("It is an old number");
+
+            //Console.WriteLine("What is your score?");
+            //int score = Convert.ToInt32(Console.ReadLine());
+            //if (score >= 90 && score <= 100)
+            //    Console.WriteLine("A");
+            //else if (score >= 70 && score <= 89)
+            //    Console.WriteLine("B");
+            //else if (score >= 60 && score <= 69)
+            //    Console.WriteLine("C");            
+            //else 
+            //    Console.WriteLine("D");
+            //int x = 1;
+            //Console.WriteLine(x++);
+            //Console.WriteLine(++x);
+            //int a = Convert.ToInt32(Console.ReadLine());            
+            //int b = Convert.ToInt32(Console.ReadLine());            
+            //int c = Convert.ToInt32(Console.ReadLine());
+            //int max = a;
+            //if (b > max)
+            //    max = b;
+            //else if (c>max)
+            //    max = c;
+            //Console.WriteLine(max * max);
+            //Console.WriteLine("Please put in a Capital Letter");
+            //char letter1 = Convert.ToChar(Console.ReadLine()); 
+            //Console.WriteLine("Please put in a Capital Letter");
+            //char letter2 = Convert.ToChar(Console.ReadLine());
+            //if (letter1 < letter2)
+            //    Console.WriteLine(letter2);
+            //else
+            //    Console.WriteLine(letter1);
+
+            //int x = Convert.ToInt32(Console.ReadLine());
+            //if (x-- < 5) Console.WriteLine(x);
+            //else Console.WriteLine(x++);
+            //int x = 5, a = 0, b = 0;
+            //if (x == a + b) 
+            //    Console.WriteLine("****");
+            //else 
+            //    Console.WriteLine("####");
+
+            int x = 21, y = 1;
+            if (x % 3 == 0 && x % 7 == 0)
+            {
+                x--;
+                Console.WriteLine(x--);
+            }
+            else
+            {
+                x++;
+                Console.WriteLine(x++);
+            }
         }
-
     }
 }
