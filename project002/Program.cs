@@ -33,30 +33,62 @@ namespace project002
             //Console.WriteLine('8' - 'c');
             //Console.WriteLine('a' - '0');
 
-            int numDay = Convert.ToInt32(Console.ReadLine());
-            switch (numDay)
+            //int numDay = Convert.ToInt32(Console.ReadLine());
+            //switch (numDay)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Arduino");
+            //        break;             
+            //    case 2:
+            //        Console.WriteLine("Arduino");
+            //        break;                
+            //    case 3:
+            //        Console.WriteLine("C++");
+            //        break;                 
+            //    case 4:
+            //        Console.WriteLine("C++");
+            //        break;                 
+            //    case 5:
+            //        Console.WriteLine("Scratch");
+            //        break;                 
+            //    case 6:
+            //        Console.WriteLine("Scratch");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Have some rest");
+            //        break;
+            //}
+            //int num = 1;
+            //while (num < 10)
+            //{
+            //    Console.WriteLine(num);
+            //    num++; 
+            //}
+
+            //int i = 0;
+            //while (i < 1000)
+            //{
+            //    i++;
+            //    Console.WriteLine(i); 
+            //}
+            //int x = 0;
+            //int m = 1;
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //while (m<n+1)
+            //{
+            //    x += m;
+            //    m++;
+            //}
+            //Console.WriteLine(x);
+
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            while (a < b +1)
             {
-                case 1:
-                    Console.WriteLine("Arduino");
-                    break;             
-                case 2:
-                    Console.WriteLine("Arduino");
-                    break;                
-                case 3:
-                    Console.WriteLine("C++");
-                    break;                 
-                case 4:
-                    Console.WriteLine("C++");
-                    break;                 
-                case 5:
-                    Console.WriteLine("Scratch");
-                    break;                 
-                case 6:
-                    Console.WriteLine("Scratch");
-                    break;
-                default:
-                    Console.WriteLine("Have some rest");
-                    break;
+                if (a % 2 == 0) {
+                    Console.WriteLine(a);
+                }
+                a++; 
             }
         }
     }
