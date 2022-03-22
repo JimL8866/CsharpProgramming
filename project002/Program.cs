@@ -81,14 +81,105 @@ namespace project002
             //}
             //Console.WriteLine(x);
 
-            int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
-            while (a < b +1)
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //while (a < b +1)
+            //{
+            //    if (a % 2 == 0) {
+            //        Console.WriteLine(a);
+            //    }
+            //    a++; 
+            //}
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int counter = 0;
+            //while (n > 1)
+            //{
+            //    if (n % 2 != 0)
+            //    {
+            //        n = (n * 3) + 1;
+
+            //    }
+            //    else
+            //    {
+            //        n = n / 2;
+            //    }
+            //    counter++; 
+            //}
+            //Console.WriteLine(counter);
+
+            //int n = 0; 
+            //while (n < 10 + 1) 
+            //{
+            //    Console.WriteLine(n);
+            //        n++; 
+            //}
+            //int year = 2006;
+            //double students = 80000;
+            //int counter = 0;
+            //while (students <=200000)
+            //{
+            //    students *= 1.25;
+            //    counter++;
+            //}
+            //Console.WriteLine(year + counter);
+            //int studentsNumber = Convert.ToInt32(Console.ReadLine());
+            //int number = 1;
+            //int totalAge = 0;
+            //while (number <= studentsNumber)
+            //{
+            //    Console.WriteLine("Please put in the age of students");
+            //    int age = Convert.ToInt32(Console.ReadLine());
+            //    totalAge += age;
+            //    number++;
+            //}
+            //double avgAge = (int)((totalAge * 1.0 / studentsNumber) * 100) / 100.0;
+            //Console.WriteLine(avgAge);
+
+            //double x = (int)((50 * 1.0 / 6) * 100) / 100.0;
+            //Console.WriteLine(x);
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int m = 1;
+            //while (m <= n)
+            //{
+            //    Console.Write($"{m} ");
+            //    m++;
+            //}
+            //int sum = 0;
+            //for(int i = 1; i <101; i++ )
+            //{
+            //    sum += i;
+            //}
+            //Console.WriteLine(sum);
+
+            //int m = Convert.ToInt32(Console.ReadLine());
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int sum = 0;
+            //while (m < n)
+            //{
+            //   if (m % 17 ==0)
+            //    {
+            //        sum += m;
+            //    }
+            //    m++; 
+            //}
+            //Console.WriteLine(sum);
+
+            int m = Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = m; i < n + 1; i++)
             {
-                if (a % 2 == 0) {
-                    Console.WriteLine(a);
+                if (i % 2 != 0)
+                {
+                    Console.Write($"{i} ");
                 }
-                a++; 
+            }
+            Console.WriteLine();
+            for (int i = m; i < n + 1; i++)
+            {
+                if (i % 2 == 0) 
+                {
+                    Console.Write($"{i} ");
+                }
             }
         }
     }
