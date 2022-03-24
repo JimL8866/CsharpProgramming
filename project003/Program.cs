@@ -132,15 +132,57 @@ namespace project003
             //    }
             //    Console.WriteLine();
             //}
-            int num = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <num +1 ; i++)
-            {
-                for (int j =0; j < i; j++)
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <num +1 ; i++)
+            //{
+            //    for (int j =0; j < i; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    Console.WriteLine("*");
+            //}
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //string m ="";
+            //for (int i = 1; i < n + 1; i ++)
+            //{
+            //    for(int j = 0; j <n; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //        m += " ";
+            //    Console.Write(m);
+            //}
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < n; i++) 
+            { 
+                for (int j = n - i -1; j > 0; j--)
                 {
                     Console.Write(" ");
                 }
-                Console.WriteLine("*");
+                for (int k = 0; k <= i; k++) {
+                    Console.Write("*");
+                }
+                for (int h = 0; h < i; h++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
             }
+            //n-1 row
+            for (int i = 1; i <=n; i++)
+            {
+                for (int j=0; j <i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = 0; j < (n - i) * 2 - 1; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+
         }
     }
 }
