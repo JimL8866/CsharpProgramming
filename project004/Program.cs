@@ -38,27 +38,33 @@ namespace project004
 
             //random 1-100
 
-            Random rd = new Random();
-            int ranNum = rd.Next(0, 101);
-            Console.WriteLine(ranNum);
-            while (true)
-            {
-                Console.WriteLine("Guess a number?");
-                int userNum = Convert.ToInt32(Console.ReadLine());
-                if (userNum < ranNum)
-                {
-                    Console.WriteLine("Guess Number is lower");
-                }
-                else if (userNum > ranNum)
-                {
-                    Console.WriteLine("Guess Numer is higher");            
-                }
-                else
-                {
-                    Console.WriteLine("You are right");
-                    break;
-                }
-            }
+            //Random rd = new Random();
+            //int ranNum = rd.Next(0, 101);
+            //Console.WriteLine(ranNum);
+            //while (true)
+            //{
+            //    Console.WriteLine("Guess a number?");
+            //    int userNum = Convert.ToInt32(Console.ReadLine());
+            //    if (userNum < ranNum)
+            //    {
+            //        Console.WriteLine("Guess Number is lower");
+            //    }
+            //    else if (userNum > ranNum)
+            //    {
+            //        Console.WriteLine("Guess Numer is higher");            
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("You are right");
+            //        break;
+            //    }
+            //}
+            Console.WriteLine("What's your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine($"my name is {name}");
+
+
+
         }
     }
 }
