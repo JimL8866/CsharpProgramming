@@ -68,11 +68,53 @@ namespace project005
             //int res = thousands * 10 + tens;
             //char res1 = (char)res;
             //Console.WriteLine(res1);
-            int a = 3;
-            int b = a++ + ++a;  //a 先赋值3，然后自增到4然后自增到5，最后加起来赋值给b
-            Console.WriteLine(a); //5
-            Console.WriteLine(b); //8
-
+            //int a = 3;
+            //int b = a++ + ++a;  //a 先赋值3，然后自增到4然后自增到5，最后加起来赋值给b
+            //Console.WriteLine(a); //5
+            //Console.WriteLine(b); //8
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //if (num % 2 == 0)
+            //{
+            //    Console.WriteLine($"{num} is an a even number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{num} is an odd number");
+            //}
+            //int year = Convert.ToInt32(Console.ReadLine());
+            //if (year % 4 ==0 && year % 100 != 0)
+            //{
+            //    Console.WriteLine($"{year} is leap year");
+            //}else if(year % 4 == 0 && year % 100 ==0 && year % 400 == 0)
+            //{
+            //    Console.WriteLine($"{year} is leap year");
+            //} else
+            //{
+            //    Console.WriteLine($"{year} is not leap year");
+            //}
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //int c = Convert.ToInt32(Console.ReadLine());
+            //int max = a;
+            //if (b > max)
+            //{
+            //    max = b;
+            //}
+            //if ( max < c)
+            //{
+            //    max = c;
+            //}
+            //Console.WriteLine(max * max);
+            char a = Convert.ToChar(Console.ReadLine());
+            char b = Convert.ToChar(Console.ReadLine());
+            if (a>=b)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.WriteLine(b);
+            }
 
 
 
