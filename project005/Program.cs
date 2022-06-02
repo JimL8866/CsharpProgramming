@@ -105,19 +105,92 @@ namespace project005
             //    max = c;
             //}
             //Console.WriteLine(max * max);
-            char a = Convert.ToChar(Console.ReadLine());
-            char b = Convert.ToChar(Console.ReadLine());
-            if (a>=b)
-            {
-                Console.WriteLine(a);
-            }
-            else
-            {
-                Console.WriteLine(b);
-            }
-
-
-
+            //char a = Convert.ToChar(Console.ReadLine());
+            //char b = Convert.ToChar(Console.ReadLine());
+            //if (a>=b)
+            //{
+            //    Console.WriteLine(a);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(b);
+            //}
+            //char gender = Convert.ToChar(Console.ReadLine());
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //if (gender == 'M')
+            //{
+            //    string tests = "1000m race";
+            //    if (number % 2 != 0)
+            //    {
+            //        tests += " long jump";
+            //    }
+            //    else
+            //    {
+            //        tests += " push ups";
+            //    }
+            //    Console.WriteLine(tests);
+            //}
+            //else if (gender == 'F')
+            //{
+            //    string tests = "800m race";
+            //    if (number % 2 != 0)
+            //    {
+            //        tests += " jump rope";
+            //    }
+            //    else
+            //    {
+            //        tests += " sit ups";
+            //    }
+            //    Console.WriteLine(tests);
+            //}
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //if (num-- < 5)Console.WriteLine(num);
+            //else Console.WriteLine(num++);
+            //int num = 5;
+            //Console.WriteLine(++num);  //6
+            //int num = 5;
+            //Console.WriteLine(num++); //5
+            //int num = 5;
+            //++num; 
+            //Console.WriteLine(num); //6
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //int c = Convert.ToInt32(Console.ReadLine());
+            //if (a > b)
+            //{
+            //    int temp = a;
+            //    a = b;
+            //    b = temp;
+            //}
+            //if (b > c)
+            //{
+            //    int temp = b;
+            //    b = c;
+            //    c = temp; 
+            //}
+            //if (a > b)
+            //{
+            //    int temp = a;
+            //    a = b;
+            //    b = temp;
+            //}
+            //Console.WriteLine($"{c}-{b}-{a}");
+            //int k = Convert.ToInt32(Console.ReadLine());
+            //double m = Convert.ToDouble(Console.ReadLine());
+            //if (k == 0)
+            //{
+            //    int num = (int)m;
+            //    Console.WriteLine(num);
+            //}
+            //else if (k == 1)
+            //{
+            //    double num = ((int)((m + 0.05)*10))/10.0;
+            //    Console.WriteLine(num);
+            //}
+            //int a = 99;
+            //char c = (char)a;
+            double a = 99.9;
+            int c = (int)a;
         }
     }
 }
